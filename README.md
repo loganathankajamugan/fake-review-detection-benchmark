@@ -24,7 +24,8 @@ analysis, and cross-dataset transfer.
 Product reviews were split using related-review groups to reduce leakage.
 Hotel splits kept hotels separate across training, validation, and testing.
 
-Dataset source and setup documentation will be added separately.
+See [dataset sources and preparation](data/README.md) for download
+links, original research credits, cleaning steps, and split details.
 Datasets and model weights are not included in this repository.
 
 ## Models
@@ -133,3 +134,14 @@ Transformer training used a Tesla T4 GPU.
 
 The comparison experiments and analyses are complete.
 Repository documentation and reproducibility improvements are ongoing.
+
+## Saved Results
+
+- [Final model comparison](results/final_model_comparison.csv)
+- [Individual DistilBERT runs](results/distilbert_test_results.csv)
+- [Bootstrap uncertainty comparisons](results/bootstrap_uncertainty_summary.csv)
+- [Per-hotel performance](results/per_hotel_test_summary.csv)
+- [Per-category performance](results/per_category_test_summary.csv)
+- [Inference benchmarks](results/final_inference_comparison.csv)
+- [Benchmark environment](results/benchmark_environment.json)
+- [Prediction consistency audit](results/final_prediction_consistency_audit.csv)
