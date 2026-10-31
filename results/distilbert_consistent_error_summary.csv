@@ -1,0 +1,5 @@
+source,target,test_reviews,wrong_in_all_three_seeds,class_0_consistent_errors,class_1_consistent_errors,sampled_for_review
+product,product,6058,63,41,22,10
+product,hotel,320,158,1,157,6
+hotel,product,6058,1757,911,846,10
+hotel,hotel,320,25,17,8,10

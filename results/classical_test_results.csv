@@ -1,0 +1,13 @@
+source,target,evaluation,model,test_reviews,accuracy,macro_f1,predicted_class_0,predicted_class_1
+product,product,within_dataset,LR,6058,0.9364476724991746,0.936447047348943,3058,3000
+product,hotel,cross_dataset,LR,320,0.509375,0.3538346773674937,317,3
+product,product,within_dataset,SVM,6058,0.9420600858369099,0.9420593895902614,3018,3040
+product,hotel,cross_dataset,SVM,320,0.50625,0.347073712485149,318,2
+product,product,within_dataset,Combined_SVM,6058,0.9456916474083856,0.9456916459285682,3040,3018
+product,hotel,cross_dataset,Combined_SVM,320,0.5,0.3333333333333333,320,0
+hotel,product,cross_dataset,LR,6058,0.4891053152855728,0.35927226463191275,5766,292
+hotel,hotel,within_dataset,LR,320,0.89375,0.8937333958431004,156,164
+hotel,product,cross_dataset,SVM,6058,0.4882799603829647,0.35978466717720803,5753,305
+hotel,hotel,within_dataset,SVM,320,0.896875,0.8968739929100871,161,159
+hotel,product,cross_dataset,Combined_SVM,6058,0.4874546054803566,0.41476591728749873,5174,884
+hotel,hotel,within_dataset,Combined_SVM,320,0.884375,0.8843467643467644,155,165

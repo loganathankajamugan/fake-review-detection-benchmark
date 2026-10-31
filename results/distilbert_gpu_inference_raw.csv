@@ -1,0 +1,21 @@
+source,target,model,seed,device,precision,cpu_thread_limit,torch_cpu_threads,reviews,batch_size,max_length,repetition,seconds
+product,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,1,1.2643328750000364
+product,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,2,0.6324054729993804
+product,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,3,0.6168017920008424
+product,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,4,0.6265829250005481
+product,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,5,0.6623929509987647
+product,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,1,0.7676046130000032
+product,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,2,0.7655220209999243
+product,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,3,0.8471276760010369
+product,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,4,0.7802134920002572
+product,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,5,0.6620481419995485
+hotel,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,1,0.5575161099986872
+hotel,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,2,0.561462109999411
+hotel,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,3,0.5534375540009933
+hotel,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,4,0.5512674279998464
+hotel,product,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,5,0.5563746629995876
+hotel,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,1,0.6655365990009159
+hotel,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,2,0.6477305769985833
+hotel,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,3,0.6422558510003
+hotel,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,4,0.6488320270000258
+hotel,hotel,DistilBERT,42,Tesla T4,FP16 autocast,2,2,320,16,256,5,0.663695594001183
