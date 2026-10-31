@@ -1,0 +1,4 @@
+direction,comparison,difference_percentage_points,lower_95_percentage_points,upper_95_percentage_points,bootstrap_samples,random_seed,method
+product_to_product,DistilBERT mean minus Combined SVM,3.2461343326123715,2.65405999182681,3.812586598684005,2000,42,paired duplicate-group percentile bootstrap
+product_to_product,Combined SVM minus TF-IDF SVM,0.3632256338306883,-0.0817340536675334,0.7926667318792358,2000,42,paired duplicate-group percentile bootstrap
+hotel_to_product,DistilBERT mean minus Combined SVM,19.14822335585314,17.707094285163414,20.693105965653512,2000,42,paired duplicate-group percentile bootstrap
