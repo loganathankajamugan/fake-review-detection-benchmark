@@ -1,0 +1,17 @@
+source,target,evaluation,model,runs,accuracy,macro_f1,sample_sd_macro_f1
+product,product,within_dataset,LR,1,0.9364476724991746,0.936447047348943,
+product,hotel,cross_dataset,LR,1,0.509375,0.3538346773674937,
+product,product,within_dataset,SVM,1,0.94206008583691,0.9420593895902614,
+product,hotel,cross_dataset,SVM,1,0.50625,0.347073712485149,
+product,product,within_dataset,Combined_SVM,1,0.9456916474083856,0.9456916459285682,
+product,hotel,cross_dataset,Combined_SVM,1,0.5,0.3333333333333333,
+hotel,product,cross_dataset,LR,1,0.4891053152855728,0.3592722646319127,
+hotel,hotel,within_dataset,LR,1,0.89375,0.8937333958431004,
+hotel,product,cross_dataset,SVM,1,0.4882799603829647,0.359784667177208,
+hotel,hotel,within_dataset,SVM,1,0.896875,0.8968739929100871,
+hotel,product,cross_dataset,Combined_SVM,1,0.4874546054803566,0.4147659172874987,
+hotel,hotel,within_dataset,Combined_SVM,1,0.884375,0.8843467643467644,
+hotel,hotel,within_dataset,DistilBERT,3,0.8729166666666667,0.872604579165972,0.0112974572056085
+hotel,product,cross_dataset,DistilBERT,3,0.6072961373390559,0.6062481508460301,0.0160489061615296
+product,hotel,cross_dataset,DistilBERT,3,0.5010416666666667,0.342810347556243,0.0069308442379153
+product,product,within_dataset,DistilBERT,3,0.9781556069109716,0.978152989254692,0.0009121378761857
